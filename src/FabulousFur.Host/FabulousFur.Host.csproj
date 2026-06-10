@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FabulousFur.SharedKernel\FabulousFur.SharedKernel.csproj" />
+    <ProjectReference Include="..\FabulousFur.Contracts\FabulousFur.Contracts.csproj" />
+    <ProjectReference Include="..\Modules\Tenants\FabulousFur.Modules.Tenants.csproj" />
+    <ProjectReference Include="..\Modules\Clients\FabulousFur.Modules.Clients.csproj" />
+    <ProjectReference Include="..\Modules\Scheduling\FabulousFur.Modules.Scheduling.csproj" />
+    <ProjectReference Include="..\Modules\Services\FabulousFur.Modules.Services.csproj" />
+  </ItemGroup>
+
+</Project>

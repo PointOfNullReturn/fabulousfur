@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FabulousFur.Contracts/FabulousFur.Contracts.csproj" />
+    <Project Path="src/FabulousFur.Host/FabulousFur.Host.csproj" />
+    <Project Path="src/FabulousFur.SharedKernel/FabulousFur.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Clients/">
+    <Project Path="src/Modules/Clients/FabulousFur.Modules.Clients.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Scheduling/">
+    <Project Path="src/Modules/Scheduling/FabulousFur.Modules.Scheduling.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Services/">
+    <Project Path="src/Modules/Services/FabulousFur.Modules.Services.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Tenants/">
+    <Project Path="src/Modules/Tenants/FabulousFur.Modules.Tenants.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FabulousFur.ArchitectureTests/FabulousFur.ArchitectureTests.csproj" />
+    <Project Path="tests/FabulousFur.SharedKernel.UnitTests/FabulousFur.SharedKernel.UnitTests.csproj" />
+  </Folder>
+</Solution>
